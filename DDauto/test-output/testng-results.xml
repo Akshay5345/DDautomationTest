@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-03-12T07:35:08 IST" name="Suite" finished-at="2024-03-12T07:38:31 IST" duration-ms="203544">
+    <groups>
+    </groups>
+    <test started-at="2024-03-12T07:35:08 IST" name="ChromeTest" finished-at="2024-03-12T07:36:48 IST" duration-ms="100622">
+      <class name="automation.Uitesting">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.Uitesting@c430e6c]" started-at="2024-03-12T07:35:08 IST" name="setup" finished-at="2024-03-12T07:35:12 IST" duration-ms="4185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterWithXML1()[pri:0, instance:automation.Uitesting@c430e6c]" started-at="2024-03-12T07:35:12 IST" name="testParameterWithXML1" finished-at="2024-03-12T07:36:48 IST" duration-ms="96058" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML1 -->
+        <test-method is-config="true" signature="endtest()[pri:0, instance:automation.Uitesting@c430e6c]" started-at="2024-03-12T07:36:48 IST" name="endtest" finished-at="2024-03-12T07:36:48 IST" duration-ms="310" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+      </class> <!-- automation.Uitesting -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2024-03-12T07:36:48 IST" name="Firefoxtest" finished-at="2024-03-12T07:38:31 IST" duration-ms="102842">
+      <class name="automation.Uitesting">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:automation.Uitesting@69c81773]" started-at="2024-03-12T07:36:48 IST" name="setup" finished-at="2024-03-12T07:36:53 IST" duration-ms="4759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testParameterWithXML1()[pri:0, instance:automation.Uitesting@69c81773]" started-at="2024-03-12T07:36:53 IST" name="testParameterWithXML1" finished-at="2024-03-12T07:38:30 IST" duration-ms="96712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML1 -->
+        <test-method is-config="true" signature="endtest()[pri:0, instance:automation.Uitesting@69c81773]" started-at="2024-03-12T07:38:30 IST" name="endtest" finished-at="2024-03-12T07:38:31 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtest -->
+      </class> <!-- automation.Uitesting -->
+    </test> <!-- Firefoxtest -->
+  </suite> <!-- Suite -->
+</testng-results>
